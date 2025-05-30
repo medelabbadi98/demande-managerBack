@@ -12,8 +12,6 @@ import java.time.LocalDate;
 import java.util.UUID;
 
 @Entity
-@AllArgsConstructor
-@NoArgsConstructor
 public class Demande implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

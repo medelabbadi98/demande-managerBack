@@ -1,13 +1,9 @@
 package com.demande.demande.dtos;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
-@AllArgsConstructor
-@NoArgsConstructor
 public class DemandeDto implements Serializable {
     @JsonProperty(required = false)
     private String id;
